@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Section from './components/section/section';
-import ButtonsMarkup from './components/buttonsBlok/buttonsMarkup';
-import Statistics from './components/statisticsList/statistics';
-import Notification from './components/notification/notification';
+import Section from './section/section';
+import ButtonsMarkup from './buttonsBlok/buttonsMarkup';
+import Statistics from './statisticsList/statistics';
+import Notification from './notification/notification';
 
 class App extends Component {
   state = {

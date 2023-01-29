@@ -1,15 +1,16 @@
 import PropTypes from 'prop-types';
-import css from './buttons.module.css'
+import { ButtonWrapper,
+  Button } from './buttons.staled';
 
 const ButtonsMurkup = ({ onLeaveFeedback, options }) => {
   return (
-    <div className={css.wrapper__buttons}>
+    <ButtonWrapper>
       {options.map(option => (
-        <button type="button" className={css[option]}  onClick={onLeaveFeedback} key={option}>
+        <Button type="button" bgColor={option} onClick={onLeaveFeedback} key={option}>
           {option}
-        </button>
+        </Button>
       ))}
-    </div>
+    </ButtonWrapper>
   );
 };
 
