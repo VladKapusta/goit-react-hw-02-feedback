@@ -40,7 +40,7 @@ class App extends Component {
           />
         </Section>
 
-        <Section titel={'Statistic'}>
+        <Section titel={'Statistics'}>
           {this.countTotalFeedback() > 0 ? (
             <Statistics
               good={good}
